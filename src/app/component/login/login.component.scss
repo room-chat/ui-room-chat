@@ -1,0 +1,26 @@
+:host ::ng-deep {
+  mat-form-field {
+    width: 100%;
+  }
+
+  .body-wrap{
+    margin-top: 75px;
+  }
+
+  .footer-wrap{
+    margin-top: 50px;
+
+    .btn-login {
+      border-radius: 15px;
+      padding: 8px 33px;
+      border: none;
+      background-color: #83A3BB;
+      color: var(--primary-bg-color);
+      cursor: pointer;
+    }
+
+    .btn-login:hover {
+      opacity: 0.8;
+    }
+  }
+}

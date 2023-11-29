@@ -1,0 +1,6 @@
+<div class="button-login-container">
+  <ng-container *ngIf="!isLogin">
+    <button (click)="openLoginDialog()" class="btn-login">{{title}}</button>
+    <button (click)="openRegisterDialog()" class="btn-signup">Sign up</button>
+  </ng-container>
+</div>
